@@ -15,10 +15,10 @@ export class DataService {
       { name: 'Jack', surname: 'Reacher', age: 34, country: 'France', phone: '987-123-654' },
       { name: 'Bon', surname: 'Smith', age: 30, country: 'Germany', phone: '789-654-321' },
       { name: 'Jason', surname: 'Statham', age: 30, country: 'Spain', phone: '321-456-987' },
-      { name: 'Denzel', surname: 'Washington', age: 30, country: 'Denmark', phone: '987-456-321' },
-      { name: 'Tom', surname: 'Hanks', age: 30, country: 'Greece', phone: '321-789-654' },
-      { name: 'Gary', surname: 'Oldman', age: 30, country: 'China', phone: '000-789-555' },
-      { name: 'Morgan', surname: 'Cruise', age: 30, country: 'Japan', phone: '111-222-333' }
+      { name: 'Denzel', surname: 'Washington', age: 34, country: 'Denmark', phone: '987-456-321' },
+      { name: 'Tom', surname: 'Hanks', age: 40, country: 'Greece', phone: '321-789-654' },
+      { name: 'Gary', surname: 'Oldman', age: 43, country: 'China', phone: '000-789-555' },
+      { name: 'Morgan', surname: 'Cruise', age: 43, country: 'Japan', phone: '111-222-333' }
     ]
 
     return people;

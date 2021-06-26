@@ -18,7 +18,9 @@
             </mat-select>
         </mat-form-field>
     </div>
+
     <br>
+
     <div class="data-table">
         <table>
             <thead>
@@ -37,6 +39,12 @@
                     <td>{{p.age}}</td>
                     <td>{{p.country}}</td>
                     <td>{{p.phone}}</td>
+                </tr>
+                <tr class="noResult"
+                    *ngIf="!people?.length">
+                    <td colspan="5">
+                        <span>No results found</span>
+                    </td>
                 </tr>
             </tbody>
         </table>
